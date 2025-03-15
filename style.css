@@ -1,0 +1,25 @@
+body{
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+}
+
+#about-section{
+    height: auto;
+
+    width: 100%;
+}
+
+#about-profil{
+    color: dimgray;
+    width: 100%;
+}
+
+
+
+.text-center{
+    text-align: center;
+}
+
