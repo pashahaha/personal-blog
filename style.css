@@ -23,3 +23,30 @@ section{
     text-align: center;
 }
 
+.section-heading{
+    color: aqua;
+    font-size: 35px;
+}
+
+#education{
+    width: 100%;
+    height: auto;
+}
+
+#education img{
+    width: 20%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-2{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
