@@ -1,5 +1,6 @@
 body{
     font-size: 20px;
+    margin: 0;
 }
 
 section{
@@ -46,7 +47,154 @@ section{
 
 .col-2{
     float: left;
-    width: 50%;
+    width: 45%;
     margin-top: 6px;
     padding: 20px;
+}
+
+
+/*skills*/
+#skills{
+    width: 100%;
+    height: auto;
+}
+
+.skills-display{
+  padding: 5px;
+  margin-bottom: 30px;
+  justify-content: space-around
+}
+
+.skill-progress{
+    border-width: 1px;
+    background-color: grey;
+    height: 35px;
+    width: 220px;
+    margin: 22px;
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.skill-progress span{
+    display: block;
+    height: 100%;
+    background-color: aqua;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-weight: bold;
+    transition: width 0.5s ease-in-out;
+}
+.col-1{
+    float: left;
+    width: 30%;
+
+}
+
+.skill-progress >div{
+    border-radius: 20px 0 0px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fifty{
+    width: 50%;
+    background-color: brown;
+}
+
+.mb-blue{
+    margin-bottom: 20px;
+}
+
+.skill-box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.fifty-percent{
+    width: 50%;
+    height: inherit;
+}
+
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+}
+
+.twenty-percent{
+    width: 20%;
+    height: inherit;
+}
+
+.mb-red{
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+
+/*Portofolio*/
+#portofolio{
+    width: 100%;
+   
+}
+
+.portofolio-display{
+    margin-button: 30px;
+    padding: 0 10px;
+}
+
+.portofolio-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    position: relative;
+}
+
+.portofolio-text{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    color: transparent;    
+}
+
+.portofolio-img:hover .portofolio-text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+
+}
+
+.portofolio-img:hover {
+    box-shadow: 1px 1px 1px rgba(10, 139, 214, 0.5);
+}
+
+/*header*/
+#header-resume{
+    opacity: 0.8;
+    background-image: url("Images/background header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 14px;
+}
+
+.header-nav ul{
+    word-spacing: 20px;
+}
+
+.header-nav li{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header-nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
 }
